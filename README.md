@@ -34,8 +34,8 @@ Since, he does 4 sets of squats, the total number of squats is 15+15+15+15=60.
     import java.util.Scanner;
 
     public class Squats {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+    	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
 		    int T=sc.nextInt();
 		    for(int i=1;i<=T;i++){
 		      int X=sc.nextInt();
@@ -44,5 +44,5 @@ Since, he does 4 sets of squats, the total number of squats is 15+15+15+15=60.
 		      int Z=X*Y;
 		      System.out.println(Z);
 		    }
-      }
-    }
+      	   }
+	}
